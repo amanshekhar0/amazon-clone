@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 125px;
+}
+.logo{
+    background-image: url(./assets/amazon_logo.png);
+    background-size: cover ;
+    height:50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5 solid #ffffff;
+}
+.deliverTO{
+    width: 120;
+    height: 14;
+    font-size: 0.75rem;
+    color: #CCCCCC;
+    margin-left: 5px;
+}
+.india{
+    font-size: .879rem;
+    color: #ffffff;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-address:hover{
+   
+    border: 2px solid white;
+}
+.logo:hover{
+    cursor: pointer;
+   
+    border: 2px solid white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(181, 94, 2);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+
+}
+
+span{
+    font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size: .88rem;
+    font-weight: 700;
+}
+.nav-signin{
+    padding: 0 9px 10px;
+    margin: 0 0 0 2px;
+}
+.nav-signin:hover{
+    border: 2px solid white;
+}
+.nav-return{
+    padding: 0 9px 10px;
+    margin: 0 0 0 2px;
+}
+.nav-return:hover{
+    border: 2px solid white;
+    }
+.nav-search:hover{
+
+    border: 2px solid  rgb(194, 126, 0);
+
+}    
+.cart-icon i{
+
+    padding:  2px 9px 10px;
+    margin: 2px 0 0 2px;
+    font-size: 30px;
+}
+.cart-icon{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart-icon:hover{
+    border: 2px solid white;
+}
+.flag{
+    background-image: url(./assets/flag.png);
+    background-size: cover;
+    height: 18px; 
+    width: 22px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-option p{
+    display: inline;
+    margin-left: 10px;
+    padding: 6px 6px 6px 6px;
+}
+.panel-option{
+    width: 95%;
+    font-size: 0.93rem;
+}
+.panel-deals{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.hover-box:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+#barr{
+    padding: 5px 5px 5px 5px;
+}
+#select-fresh{
+    background-color: #222f3d ;
+    color:grey;
+    border: none;
+    
+}
+
+.pranshu{
+    display: flex;
+    gap: 1vmin;
+}
+.mid-page{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/CEPC_soundbars_speakers/FEB_2024/Latest_Launches_Tallhero_3000x1200._CB559415579_.jpg);
+    background-size: 100% 100%;
+    z-index: 1;
+    height: 650px;
+    width: 100%;
+    
+    position: relative;
+
+
+}
+
+.main-box{
+    position: absolute;
+ top: 42%;
+ width: 100%;
+ z-index: 1;
+ display: flex;
+ justify-content: space-between;
+ padding: 0 30px  ;
+ margin-right: 20px;
+  
+}
+
+.box-1,.box-2,.box-3,.box-3,.box-4{
+    background-color: white;
+    padding: 00px 0 15px;
+  
+
+  
+    height: 420px;
+    width: 350px;
+    
+
+}
+.box-1 img{
+
+    margin: 15px 20px 0px 20px;
+
+}
+h2{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700 ;
+    font-size: 1.3rem;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.blue{
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-left:19px ;
+    
+}
+div-fourbox {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    width:350px;
+    height: 350px;
+    
+  }
+  
+  .onebox {
+    width: 140px;
+    height: 140px;
+    
+    margin: 3px 3px 3px 3px;
+  }
+  .box-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box-first {
+    width: 320px;
+    height: 140px;
+    margin: 10px;
+    margin-left: 15px;
+    display: flex;
+    padding: 5px;
+    
+  }
+  .box-first img {
+    align-items: center;
+   
+   
+}
+  
+  .box-second {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border: none;
+  }
+  .box-second img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: none;
+
+  }
+  h2.brand{
+    margin: 0 5px 0 0;
+  }
+ 
+    
+ 
+ .register{
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  
+
+ }
+ .box-1 img{
+    height: 300px;
+    width: 300px;
+ }
+.box-2 img{
+    height: 135px;
+    width: 100px;
+    
+}
+p{
+    font-size: 0.8rem;
+    font-weight: 650;
+}
+.box-3 img{
+    height: 100px;
+    width: 140px;
+    
+}
+.big-box{
+    height: 107%;
+    width: 100%;
+    border: 1px solid rgb(242, 187, 187);
+}
+.space{
+    height: 45px;
+}
+.footer{
+    /* height: 750px; */
+    width: 100%;
+    border: 2px solid black;
+   
+}
+
+.back-to-top{
+    width: 100%;
+    height: 55px;
+    background-color: #37475A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+
+}
+.back-to-top a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.foot-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #263444;
+}
+
+.foot-content li{
+    margin-bottom: 14px;
+    font-size: 0.87rem;
+    list-style-type: none;
+    color: #ffffff;
+    opacity: 0.9;
+    
+}
+.foot-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#bold{
+    color: white;
+    opacity: 1;
+    font-weight: 700;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color:grey;
+}
+.end{
+    height: 150px;
+    width: 100%;
+    padding: 0 400px;
+    background-color:#222f3d;
+    
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo2 img{
+    height: 38px;
+    width: 90px;
+   
+}
+.english{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    color: white;
+    width: 150px;
+    height: 55px;
+    border: 2px solid gainsboro;
+    opacity: .8;
+    justify-content: space-evenly;
+}
+.engl{
+    font-size: 1rem;
+    font-weight: 100;
+}
+#select-down{
+    background-color: #222f3d ;
+    color:grey;
+    border: none;
+}
+.india-end{
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flagg{
+    background-image: url(./assets/flag.png);
+    background-size: cover;
+    height: 18px; 
+    width: 22px;
+}
+.india-p{
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+}
+.ama{
+   border: 2px solid wheat;
+   height: 60px;
+   width: 150px;
+   
+}
+.ama img{
+    
+    background-size: cover ;
+    height:60px;
+    width: 100%;
+}
